@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
+import foodOrdering from "../../img/Food ordering app -Home - Google Chrome_2.jpg";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
@@ -24,7 +24,9 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+         <a href="https://lively-myfoodorderingapp.netlify.app/" target='_blank'>
+         <img src={foodOrdering} alt="" />
+         </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
